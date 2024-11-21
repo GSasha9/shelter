@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/pets.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="blackout"></div>
+        <!-- HEDER -->
+        <header class="header">
+          <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <a class="logo-link" href="./index.html">Cozy House</a>
+                    <p class="logo-text black">Shelter for pets in Boston</p>
+                </div>
+                <nav class="menu">
+                    <div class="menu__mobile-burger" id="menu__mobile-burger">
+                        <span class="mobile-burger-line"></span>
+                        <span class="mobile-burger-line"></span>
+                        <span class="mobile-burger-line"></span>
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a href="./index.html" class="menu__list-link">About the shelter</a></li>
+                        <li class="menu__list-item"><a  href="" class="menu__list-link active black">Our pets</a></li>
+                        <li class="menu__list-item"><a href="./index.html#help" class="menu__list-link">Help the shelter</a></li>
+                        <li class="menu__list-item"><a href="#footer" class="menu__list-link">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+          </div>
+        </header>
+        <!--  -->
+
+        <!-- MAIN -->
+        <main class="main">
+            <section class="our-friends" id="our-friends">
+                <div class="container">
+                    <div class="our-friends__inner">
+                        <h1 class="our-friends__title">
+                            Our friends who
+                            <span class="title-second-line">are looking for a house</span>
+                        </h1>
+                        <div class="slider">
+                            <ul class="our-friends__cards">
+                                
+                            </ul>
+                        </div>
+                        
+                        <div class="our-friends__pagination">
+                            <button class="arrow arrow-not-active" id="max_prev" disabled>
+                                <svg width="25" height="11" viewBox="0 0 25 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="arrow-not-active" id="max_prev_path" d="M14.9945 6.08789L24.0277 10.7852V9.44727L16.518 5.53125L24.0277 1.625V0.287109L14.9945 4.98438V6.08789ZM0.923438 6.08789L9.95664 10.7852V9.44727L2.44688 5.53125L9.95664 1.625V0.287109L0.923438 4.98438V6.08789Z" fill="#292929"/>
+                                </svg>  
+                            </button>
+                            <button class="arrow arrow-not-active" id="prev" disabled>
+                                <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="arrow-not-active" id="prev_path" d="M0.958984 6.08789L9.99219 10.7852V9.44727L2.48242 5.53125L9.99219 1.625V0.287109L0.958984 4.98438V6.08789Z" fill="#292929"/>
+                                </svg>
+                            </button>
+                            <button class="pagination-number">
+                                <span id="paginNumber">1</span>
+                            </button>
+                            <button class="arrow" id="next">
+                                <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path id="next_path" d="M9.04102 6.08789L0.0078125 10.7852V9.44727L7.51758 5.53125L0.0078125 1.625V0.287109L9.04102 4.98438V6.08789Z" fill="#292929"/>
+                                </svg>
+                            </button>
+                            <button class="arrow" id="max_next">
+                                <svg width="25" height="11" viewBox="0 0 25 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path id="max_next_path" d="M10.0055 6.08789L0.972265 10.7852V9.44727L8.48203 5.53125L0.972265 1.625V0.287109L10.0055 4.98438V6.08789ZM24.0766 6.08789L15.0434 10.7852V9.44727L22.5531 5.53125L15.0434 1.625V0.287109L24.0766 4.98438V6.08789Z" fill="#292929"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--  -->
+
+        <!-- FOOTER -->
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__info">
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <p class="footer__list-title title">
+                                    For questions and suggestions
+                                </p>
+                            </li>
+                            <li class="footer__list-item">
+                                <svg class="footer__list-img" width="40" height="32" viewBox="0 0 40 32">
+                                    <use href="./assets/img/img.svg#footer__list-img-letter"></use>
+                                </svg>
+                                <a class="footer__list-link" href="https://www.google.com/intl/ru/gmail/about/" target="_blank">email@shelter.com</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <svg class="footer__list-img" width="40" height="32" viewBox="0 0 40 32">
+                                    <use href="./assets/img/img.svg#footer__list-img-phone"></use>
+                                </svg>
+                                <a class="footer__list-link" href="tel:+136745677554" target="_blank">+13 674 567 75 54</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <p class="footer__list-title title">
+                                    We are waiting for your visit
+                                </p>
+                            </li>
+                            <li class="footer__list-item">
+                                <svg class="footer__list-img" width="42" height="32" viewBox="0 0 22 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <use href="./assets/img/img.svg#footer__list-img-teg"></use>
+                                </svg>
+                                <a class="footer__list-link" href="https://maps.app.goo.gl/rFuwW8RrGrrTKdVi6" target="_blank">
+                                    1 Central Street, Boston (entrance from the store)
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <svg class="footer__list-img" width="22" height="32" viewBox="0 0 22 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <use href="./assets/img/img.svg#footer__list-img-teg"></use>
+                                </svg>                                    
+                                <a class="footer__list-link" href="https://maps.app.goo.gl/8TFz3Q4w6deRsfUi7" target="_blank">18 South Park, London</a>
+                            </li>
+                        </ul> 
+                    </div>
+                    <img class="footer__img" src="./assets/img/footer-puppy.png" alt="puppy">
+                </div>
+            </div>
+        </footer>
+        <!--  -->
+        <div class="modal_window">
+            
+        </div>
+    </div>
+    <script src="./js/variables.js" type="module"></script>
+    <script src="./js/menuMobile.js" type="module"></script>
+    <script src="./js/slider.js" type="module"></script>
+    <script src="./js/popUp.js" type="module"></script>
+    
+    
+</body>
+</html>
